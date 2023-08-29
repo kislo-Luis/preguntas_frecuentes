@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+<html lang="es">
+<head>	
 	<meta charset="UTF-8">
-	<title>Ciudadan@ misionero</title>
-	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<title notranslate>Ciudadan@ misionero</title>
+	<!-- Estilos de Bootstrap responsive -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<!-- codigo de colores y estilos escrito por nosotros -->
+	
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Tipografia openSans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<
 	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
 </head>
-<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+
 <body>
 <header>
 	<div class="container">
 		<div class="row top">
-			<!-- en esta linea cambiamos nuestro logo. -->
+			<!-- logo. -->
 			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
-				<img src="#" alt="" class="logo"></a></div>
+				<img src="images/logo.JPG" alt="" class="logo"></a></div>
 			<div class="col-md-3"></div>
 			<div class="col-md-5">
 				<ul class='botonera'>
-					<li><a href="#nosotros" data-ancla="nosotros">Contraseñas</a></li>
-					<li><a href="#servicios" data-ancla="servicios">Tene en cuenta</a></li>
+					<li><a href="#servicios" data-ancla="servicios">Mi usuari@</a></li>
+					<li><a href="#nosotros" data-ancla="nosotros">Otros sitios</a></li>					
 					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
 
 				</ul>
@@ -38,61 +37,92 @@
 
 <div class="principal vertical-centered-text" id="home">
 	<div class="col-md-8 cta"><h1>Ciudadan@ Misiones</h1> 
-			<!-- <h4>Tene en cuenta que tu usuario y contraseña son los mismos que necesitas para ingresar a IPRODHA</h4> -->
-			<p><strong>ATENCION:</strong> Nosotros podemos ayudarte a recuperar los datos de tu  usuario para poder ingresar a IPRODHA, pero no damos soporte en los sistemas externos a Ciudadano Misiones. 
-				Si tiene problemas con la página de IPRODHA como actualizacion de datos o pago de coutas, debe consultar con ellos, mandando su problema específico a: 
-			</p>
-				<a  href="mailto:sistemas.iprodha@gmail.com" class="btn btn-primary orange">IPRODHA</a>
-			<p>Para recuperar su usario y contraseña, lea atentamente lo siguiente ↓</p>	
+			
+			<p><strong>ATENCIÓN:</strong> En este sitio encontrarás los pasos necesarios para recuperar tu ingreso a CIUDADAN@ MISIONES, luego, podrás seguir disfrutando de sus beneficios.</p>				
+			<p>Para poder recuperar su usuario y contraseña, lea detenidamente lo siguiente ↓</p>	
 	</div>
 </div>
-
-<div class="nosotros orange" id="nosotros">
-	<div class="container">
-		<h1>Recuperación de contraseñas</h1>
-		<p>Necesitamos que nos envíes un e-mail completando atentamente los siguientes datos: CUIL, DNI, NOMBRE, APELLIDO</p>
-		<a href="mailto:soporte.ciudadanomisiones@gmail.com?subject=Solicitud%20de%20usuario&body=CUIL:%0D%0ADNI:%0D%0ANOMBRE:%0D%0AAPELLIDO:%0D%0ALEA DETENIDAMENTE CADA DATO ANTES DE CONFIRMAR Y ENVIAR, GRACIAS" class="btn btn-primary orange">Enviar Correo</a>
-	</div>
-</div>
-
 
 <div class="container servicios" id="servicios">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Para recuperar tus datos o de un familiar.</h1>
+			<h1>Para recuperar tus datos o de un familiar</h1>
 		</div>
 	</div>
 	<div class="row images">
-		<div class="col-md-3">
-			<img src="images/house.png" alt="">
-			<h3> IPRODHA</h3>
-			<p>Recupere su usuario y contraseña aquí para poder seguir con sus trámites de IPRODHA.</p>
-		</div>
+		
 
 		<div class="col-md-3">
 			<img src="images/EMAIL.png" alt="">
-			<h3> E-MAIL</h3>
+			<h3> E-mail</h3>
 			<p>Es fundamental tener una cuenta activa de correo electrónico para recibir los pasos a seguir.</p>
 		</div>
 
 
 		<div class="col-md-3">
 			<img src="images/dni.png" alt="">
-			<h3>CUIT/CUIL</h3>
-			<p>Identifique su CUIT/CUIL rápidamente, al dorso de su DNI.</p>
+			<h3>Cuit/Cuil</h3>
+			<p>Identifique su CUIT/CUIL rápidamente, al dorso de su DNI. El mismo le será solicitado</p>
 		</div>	
-		
-		
+			
 		
 		<div class="col-md-3">
 			<img src="images/group.png" alt="">
 			<h3>Datos de terceros</h3>
-			<p>Envíanos un correo solicitando los pasos para dicha consulta.</p>
-			<a href="mailto:soporte.ciudadanomisiones@gmail.com?subject=Solicitud%20de%20información&body=%0D%0ASolicito los pasos a seguir para recuperar usuario y contraseña de un famiiar." class="btn btn-primary orange">Enviar Correo</a>
+			<p>Solicita <a href="mailto:soporte.ciudadanomisiones@gmail.com?subject=Solicitud%20de%20información&body=%0D%0ASolicito los pasos a seguir para recuperar usuario y contraseña de un famiiar." >aquí</a>  través de un correo electrónico, los pasos a seguir.</p>			
 		</div>
+
+		<div class="col-md-3">
+			<img src="images/candado.png" alt="">
+			<h3> Recupere sus datos</h3>
+			<p>Haciendo clic en las letras azules se le redirigirá a un e-mail. Complete por favor esos campos atentamente<a href="mailto:soporte.ciudadanomisiones@gmail.com?subject=Solicitud%20de%20usuario&body=CUIL:%0D%0ADNI:%0D%0ANOMBRE/S:%0D%0AAPELLIDO:%0D%0ALEA DETENIDAMENTE CADA DATO ANTES DE CONFIRMAR Y ENVIAR, GRACIAS" > (CUIL, DNI, NOMBRE COMPLETO, APELLIDO) </a></p>
+		
+		</div>
+
 	</div>
 	
 </div>
+
+
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">		
+		<h1>OTROS TRÁMITES</h1>	
+	</div>
+	<div class="col-md-79">
+		<h4>Por consultas sobre otras plataformas (Boleto estudiantil gratuito o IPRODHA) diríjase a sus vías de comunicación
+	</div>
+</div>
+
+<div class="container servicioff" id="servicioff">
+	<div class="row">
+		<div class="col-md-78">
+			<h4>Por consultas sobre otras plataformas, diríjase a sus vías de comunicación</h4>
+		</div>
+	</div>
+	<div class="row images">
+		
+
+		<div class="col-md-77">
+			<img src="images/autobus.png" alt="">
+			<h3><a href="https://www.facebook.com/profile.php?id=100095072496827"  target="_blank">BEG</a> </h3>
+			
+			</div>
+
+
+		
+
+		<div class="col-md-77">
+			<img src="images/house.png" alt="">
+			<h3><a  href="mailto:sistemas.iprodha@gmail.com">IPRODHA</a> </h3>
+
+		
+		</div>
+
+	</div>
+	
+</div>
+
 
 <footer>
 	<div class="container" id="contacto">
@@ -115,7 +145,7 @@
 						<a target="_blank" href="https://www.instagram.com/siliconmisiones/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
 	</div>
 </footer>
-<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="

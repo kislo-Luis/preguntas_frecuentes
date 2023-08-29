@@ -4,7 +4,7 @@ body{
 
 }
 .logo{
-	width: 40px;
+	width: 200px;
 }
 
 .botonera li{
@@ -18,7 +18,7 @@ body{
 
 }
 .botonera li a:hover{
-	color: black;
+	color:rgb(72, 31, 176);
 	text-decoration: none;
 }
 
@@ -75,6 +75,12 @@ h1{
 .nosotros h1{
 	font-weight: 100;
 }
+.nosotros h4{
+	display: none;
+}
+
+
+
 .servicios{
 	text-align: center;
 	padding-top: 150px;
@@ -97,6 +103,35 @@ h1{
 	padding-top: 20px;
 
 }
+/* ////////// */
+
+.servicioff{
+	
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 90px;	
+}
+
+.servicioff img{
+	width: 55%;
+	align-items: center;	
+}
+
+.servicioff h4{
+	color: #666;
+	font-weight: 100;
+	margin-left: 90px;
+}
+.servicioff .images{	
+	padding-top: 30px;	
+}
+
+.images .col-md-77{
+	padding-top: 20px;
+}
+
+/* ///////// */
 .social{
 	text-align: center;
 }
@@ -139,16 +174,40 @@ and (max-device-width : 736px) { }
   .col-md-2 {
     width: 100%;
   }
+ 
   .social img{
   	width: 100%;
   }
+  .col-md-4{
+	margin-left: 163px;
+	
+  }
+  .col-md-77{
+	margin-right: 65px;	
+	
+  }
+  .col-md-78 h4{
+	display: none;
+	margin-right: 150px;
+	background-color: aquamarine;
+  }
+
+
   .botonera li a {
     font-size: 13px;
+}
+  .botonera li{
+	margin-left: 20px;
+	
 }
 .nosotros{
 	height: 400px;
 	overflow: hidden;
 	padding-top: 15px;
+}
+
+.nosotros h4{
+	display:block
 }
 #home{
 	padding-top: 65px;
