@@ -150,6 +150,12 @@ footer h1{
 	font-weight: 100;
 }
 
+#firma {
+	text-align: center;
+	
+}
+
+
 #home {
 	color: white;
 }
@@ -178,10 +184,8 @@ and (max-device-width : 736px) { }
   .social img{
   	width: 100%;
   }
-  .col-md-4{
-	margin-left: 163px;
-	
-  }
+
+
   .col-md-77{
 	margin-right: 65px;	
 	
@@ -189,8 +193,9 @@ and (max-device-width : 736px) { }
   .col-md-78 h4{
 	display: none;
 	margin-right: 150px;
-	background-color: aquamarine;
+	
   }
+
 
 
   .botonera li a {
